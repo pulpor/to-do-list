@@ -91,6 +91,20 @@ out
 .nuxt
 dist
 
+dist-ssr*.local
+.vscode/*
+
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js

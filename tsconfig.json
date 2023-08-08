@@ -30,9 +30,11 @@
       "@/pages*": ["./src/pages*"],
       "@/schemas*": ["./src/schemas*"],
       "@/styles*": ["./src/styles*"],
-      "@/utils*": ["./src/utils*"]
+      "@/utils*": ["./src/utils*"],
+      "@/requests*": ["./src/requests*"],
+      "@/types*": ["./src/@types*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/@types/mui-theme.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,14 +1,16 @@
-import { useState } from 'react'
+import SendIcon from '@mui/icons-material/Send'
+import { Button } from '@mui/material'
 
 import Header from '@/components/Header'
 
 import reactLogo from './assets/react.svg'
 
 import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
-	const [count, setCount] = useState(0)
+	// const [count, setCount] = useState(0)
 
 	return (
   <>
@@ -23,11 +25,14 @@ function App() {
     </div>
     <h1>Vite + React</h1>
     <div className="card">
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is 
-        {' '}
-        {count}
-      </button>
+      <Button sx={
+        {
+          color: 'white',
+          backgroundColor: 'Crimson'
+        }
+      } variant='outlined' endIcon={<SendIcon />}>
+        XABLAu
+      </Button>
       <p>
         Edit 
         {' '}
